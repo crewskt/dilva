@@ -9,9 +9,9 @@ var MEU_CARRINHO = [];
 var MEU_ENDERECO = null;
 
 var VALOR_CARRINHO = 0;
-var VALOR_ENTREGA = 15;
+var VALOR_ENTREGA = 20;
 
-var CELULAR_EMPRESA = '5521970079123';
+var CELULAR_EMPRESA = '5521995629574';
 
 cardapio.eventos = {
 
@@ -536,7 +536,7 @@ cardapio.metodos = {
 
     carregarBotaoLigar: () => {
 
-        $('#btnLigar').attr('href', `https://api.whatsapp.com/send?phone=5521970079123&text=Olá%C3%A1`)
+        $('#btnLigar').attr('href', `https://api.whatsapp.com/send?phone=5521995629574&text=Olá%C3%A1`)
 
     },
 
